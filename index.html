@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trần Thanh Thuận | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:#020617;
+padding:15px;
+position:fixed;
+width:100%;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:110px 20px;
+text-align:center;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+}
+
+h1{
+color:#38bdf8;
+margin-bottom:15px;
+}
+
+.card{
+background:#1e293b;
+border-radius:10px;
+padding:25px;
+margin-top:20px;
+box-shadow:0 0 15px rgba(0,0,0,0.5);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+img{
+width:100%;
+border-radius:10px;
+margin-top:15px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.email-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 20px;
+background:#38bdf8;
+color:#000;
+font-weight:bold;
+border-radius:8px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.email-btn:hover{
+background:#0ea5e9;
+}
+
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="#about">Giới thiệu</a>
+<a href="#info">Thông tin</a>
+<a href="#projects">Dự án</a>
+<a href="#contact">Liên hệ</a>
+</nav>
+</header>
+
+
+<section id="about">
+<div class="container">
+
+<h1>Giới thiệu</h1>
+
+<div class="card">
+
+<p>
+Xin chào! Tôi là <b>Trần Thanh Thuận</b>, học sinh lớp <b>12C5</b> tại
+<b>THPT Nguyễn Du – Bắc Ninh Hòa</b>.
+</p>
+
+<p>
+Tôi sinh ra tại <b>Lạc Ninh – Bắc Ninh Hòa – Khánh Hòa</b>.
+Tôi yêu thích công nghệ, sáng tạo nội dung và các dự án trên internet.
+</p>
+
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+
+</div>
+
+</div>
+</section>
+
+
+<section id="info">
+<div class="container">
+
+<h1>Thông tin cá nhân</h1>
+
+<div class="card">
+
+<p><b>Họ và tên:</b> Trần Thanh Thuận</p>
+<p><b>Lớp:</b> 12C5</p>
+<p><b>Trường:</b> THPT Nguyễn Du – Bắc Ninh Hòa</p>
+<p><b>Nơi sinh:</b> Lạc Ninh – Bắc Ninh Hòa – Khánh Hòa</p>
+
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+
+</div>
+
+</div>
+</section>
+
+
+<section id="projects">
+<div class="container">
+
+<h1>Dự án</h1>
+
+<div class="projects">
+
+<div class="card">
+<h3>Website Portfolio</h3>
+<p>Trang web giới thiệu bản thân được xây dựng bằng HTML và CSS.</p>
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+</div>
+
+<div class="card">
+<h3>Video Editing</h3>
+<p>Các dự án chỉnh sửa video sáng tạo cho mạng xã hội.</p>
+<img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b">
+</div>
+
+<div class="card">
+<h3>Content Creator</h3>
+<p>Sáng tạo nội dung cho các nền tảng như TikTok và YouTube.</p>
+<img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4">
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<section id="contact">
+<div class="container">
+
+<h1>Liên hệ</h1>
+
+<div class="card">
+
+<p>Nếu bạn muốn liên hệ với tôi, hãy gửi email qua địa chỉ:</p>
+
+<p><b>Email:</b> thuanthanhtran2394@gmail.com</p>
+
+<a class="email-btn" href="mailto:thuanthanhtran2394@gmail.com">
+Gửi Email
+</a>
+
+<img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c">
+
+</div>
+
+</div>
+</section>
+
+
+<footer>
+<p>© 2026 - Trần Thanh Thuận</p>
+</footer>
+
+</body>
+</html>
